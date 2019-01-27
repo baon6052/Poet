@@ -1,0 +1,13 @@
+{
+    "count": 1,
+    "people": [
+        {
+            "_id": "5c3fd6be3b8a15cd2c0de7f2",
+            "email": "delia@gmail.com",
+            "username": "doctorwhocomposer",
+            "password": "$2b$10$8sy20H1TkA3OYAT73ON89eRoZWpZJ4qONoMCwxavvvx24eevxpv96",
+            "forename": "Delia",
+            "surname": "Derbyshire"
+        }
+    ]
+}

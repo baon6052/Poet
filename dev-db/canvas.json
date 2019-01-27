@@ -1,0 +1,109 @@
+{
+  "count": 8,
+  "canvas": [
+    {
+      "_id": "5c4e0a062190db84acec0523",
+      "title": "Because of Libraries We Can Say These Things by Naomi Shihab Nye",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>She is holding the book close to her body,<br />carrying it home on the cracked sidewalk,<br />down the tangled hill.<br />If a dog runs at her again, she will use the book as a shield.</p>\n<p>She looked hard among the long lines<br />of books to find this one.<br />When they start talking about money,<br />when the day contains such long and hot places,<br />she will go inside.<br />An orange bed is waiting.<br />Story without corners.<br />She will have two families.<br />They will eat at different hours.</p>\n<p>She is carrying a book past the fire station<br />and the five and dime.</p>\n<p>What this town has not given her<br />the book will provide; a sheep,<br />a wilderness of new solutions.<br />The book has already lived through its troubles.<br />The book has a calm cover, a straight spine.</p>\n<p>When the step returns to itself,<br />as the best place for sitting,<br />and the old men up and down the street<br />are latching their clippers,</p>\n<p>she will not be alone.<br />She will have a book to open<br />and open and open.<br />Her life starts here.</p>",
+      "date_published": "2019-01-27T19:44:06.528Z",
+      "canvas_image": "uploads\\1548618246507img2.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e0a062190db84acec0523"
+      }
+    },
+    {
+      "_id": "5c4e0ec969bf9b4f4457b704",
+      "title": "Valentine Carol - Ann Duffy",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>Not a red rose or a satin heart.</p>\n<p>I give you an onion.<br />It is a moon wrapped in brown paper.<br />It promises light<br />like the careful undressing of love.</p>\n<p>Here.<br />It will blind you with tears<br />like a lover.<br />It will make your reflection<br />a wobbling photo of grief.</p>\n<p>I am trying to be truthful.</p>\n<p>Not a cute card or a kissogram.</p>\n<p>I give you an onion.<br />Its fierce kiss will stay on your lips,<br />possessive and faithful<br />as we are,<br />for as long as we are.</p>\n<p>Take it.<br />Its platinum loops shrink to a wedding ring,<br />if you like.<br />Lethal.<br />Its scent will cling to your fingers,<br />cling to your knife.</p>",
+      "date_published": "2019-01-27T20:04:25.449Z",
+      "canvas_image": "uploads\\1548619465445img4.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e0ec969bf9b4f4457b704"
+      }
+    },
+    {
+      "_id": "5c4e0f0e69bf9b4f4457b705",
+      "title": "Lost In The Forest - Pablo Neruda",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>Lost in the forest, I broke off a dark twig<br />and lifted its whisper to my thirsty lips:<br />maybe it was the voice of the rain crying,<br />a cracked bell, or a torn heart.<br /><br />Something from far off it seemed<br />deep and secret to me, hidden by the earth,<br />a shout muffled by huge autumns,<br />by the moist half-open darkness of the leaves.<br /><br />Wakening from the dreaming forest there, the hazel-sprig<br />sang under my tongue, its drifting fragrance<br />climbed up through my conscious mind<br /><br />as if suddenly the roots I had left behind<br />cried out to me, the land I had lost with my childhood---<br />and I stopped, wounded by the wandering scent.&nbsp;</p>",
+      "date_published": "2019-01-27T20:05:34.374Z",
+      "canvas_image": "uploads\\1548619534344img5.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e0f0e69bf9b4f4457b705"
+      }
+    },
+    {
+      "_id": "5c4e0f7669bf9b4f4457b706",
+      "title": "To The River - Edgar Allan Poe",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>Fair river! in thy bright, clear flow<br />Of crystal, wandering water,<br />Thou art an emblem of the glow<br />Of beauty- the unhidden heart-<br />The playful maziness of art<br />In old Alberto's daughter;<br /><br />But when within thy wave she looks-<br />Which glistens then, and trembles-<br />Why, then, the prettiest of brooks<br />Her worshipper resembles;<br />For in his heart, as in thy stream,<br />Her image deeply lies-<br />His heart which trembles at the beam<br />Of her soul-searching eyes.&nbsp;</p>",
+      "date_published": "2019-01-27T20:07:18.183Z",
+      "canvas_image": "uploads\\1548619638179img6.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e0f7669bf9b4f4457b706"
+      }
+    },
+    {
+      "_id": "5c4e0fc869bf9b4f4457b707",
+      "title": "Binocular - Ryn",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>Wish I had a special pair of lenses<br />A tool for me; just for my senses<br />That grant me binocular vision<br />Allow me to see with heightened perception.<br /><br />Peer through mountain crags, over dunes of sand<br />Pierce skyscrapers in familiar foreign lands<br />A sight beyond nimbus clouds<br />Amazingly through temporal shrouds.<br /><br />Past breathtaking ridges and quiet plateaus<br />Alongside a ****** of black-feathered crows<br />Tripping over singing brooks and moss-covered pebbles<br />Herds of quadrupeds as they frolic and gambol<br />Extraordinary views and candy for the eyes<br />Travelling linear between earth and skies.<br /><br />But...<br /><br />You're too far away for me to see<br />Even if bestowed upon me...<br /><br />Still,<br /><br />I wish my eyes binocular...<br />Because I need you so much closer...</p>",
+      "date_published": "2019-01-27T20:08:40.980Z",
+      "canvas_image": "uploads\\1548619720976img7.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e0fc869bf9b4f4457b707"
+      }
+    },
+    {
+      "_id": "5c4e105069bf9b4f4457b708",
+      "title": "The Bridge - HENRY WADSWORTH LONGFELLOW",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<div>I stood on the bridge at midnight,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;As the clocks were striking the hour,&nbsp;</div>\n<div>And the moon rose o'er the city,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Behind the dark church-tower.&nbsp;</div>\n<div>&nbsp;</div>\n<div>I saw her bright reflection&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;In the waters under me,&nbsp;</div>\n<div>Like a golden goblet falling&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;And sinking into the sea.&nbsp;</div>\n<div>&nbsp;</div>\n<div>And far in the hazy distance&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Of that lovely night in June,&nbsp;</div>\n<div>The blaze of the flaming furnace&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Gleamed redder than the moon.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Among the long, black rafters&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;The wavering shadows lay,&nbsp;</div>\n<div>And the current that came from the ocean&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Seemed to lift and bear them away;&nbsp;</div>\n<div>&nbsp;</div>\n<div>As, sweeping and eddying through them,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Rose the belated tide,&nbsp;</div>\n<div>And, streaming into the moonlight,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;The seaweed floated wide.&nbsp;</div>\n<div>&nbsp;</div>\n<div>And like those waters rushing&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Among the wooden piers,&nbsp;</div>\n<div>A flood of thoughts came o&rsquo;er me&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;That filled my eyes with tears.&nbsp;</div>\n<div>&nbsp;</div>\n<div>How often, O, how often,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;In the days that had gone by,&nbsp;</div>\n<div>I had stood on that bridge at midnight&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;And gazed on that wave and sky!&nbsp;</div>\n<div>&nbsp;</div>\n<div>How often, O, how often,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;I had wished that the ebbing tide&nbsp;</div>\n<div>Would bear me away on its bosom&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;O&rsquo;er the ocean wild and wide!&nbsp;</div>\n<div>&nbsp;</div>\n<div>For my heart was hot and restless,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;And my life was full of care,&nbsp;</div>\n<div>And the burden laid upon me&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Seemed greater than I could bear.&nbsp;</div>\n<div>&nbsp;</div>\n<div>But now it has fallen from me,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;It is buried in the sea;&nbsp;</div>\n<div>And only the sorrow of others&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Throws its shadow over me.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Yet whenever I cross the river&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;On its bridge with wooden piers,&nbsp;</div>\n<div>Like the odor of brine from the ocean&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Comes the thought of other years.&nbsp;</div>\n<div>&nbsp;</div>\n<div>And I think how many thousands&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Of care-encumbered men,&nbsp;</div>\n<div>Each bearing his burden of sorrow,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Have crossed the bridge since then.&nbsp;</div>\n<div>&nbsp;</div>\n<div>I see the long procession&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;Still passing to and fro,&nbsp;</div>\n<div>The young heart hot and restless,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;And the old subdued and slow!&nbsp;</div>\n<div>&nbsp;</div>\n<div>And forever and forever,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;As long as the river flows,&nbsp;</div>\n<div>As long as the heart has passions,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;As long as life has woes;&nbsp;</div>\n<div>&nbsp;</div>\n<div>The moon and its broken reflection&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;And its shadows shall appear,&nbsp;</div>\n<div>As the symbol of love in heaven,&nbsp;</div>\n<div>&nbsp;&nbsp;&nbsp;And its wavering image here.&nbsp;</div>",
+      "date_published": "2019-01-27T20:10:56.449Z",
+      "canvas_image": "uploads\\1548619856436img8.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e105069bf9b4f4457b708"
+      }
+    },
+    {
+      "_id": "5c4e1200cbcefc744098bedc",
+      "title": "If Librarians Were Honest - Joseph Mills ",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>If librarians were honest,<br />they wouldn&rsquo;t smile, or act<br />welcoming. They would say,<br /><em>You need to be careful.</em>&nbsp;Here<br />be monsters. They would say,<br /><em>These rooms house heathens<br />and heretics, murderers and<br />maniacs, the deluded, desperate,<br />and dissolute.</em>&nbsp;They would say,<br /><em>These books contain knowledge<br />of death, desire, and decay,<br />betrayal, blood, and more blood;<br />each is a Pandora&rsquo;s box, so why<br />would you want to open one.</em><br />They would post danger<br />signs warning that contact<br />might result in mood swings,<br />severe changes in vision,<br />and mind-altering effects.<br /><br />If librarians were honest<br />they would admit the stacks<br />can be more seductive and<br />shocking than porn. After all,<br />once you&rsquo;ve seen a few<br />breasts, vaginas, and penises,<br />more is simply more,<br />a comforting banality,<br />but the shelves of a library<br />contain sensational novelties,<br />a scandalous, permissive mingling<br />of Malcolm X, Marx, Melville,<br />Merwin, Millay, Milton, Morrison,<br />and anyone can check them out,<br />taking them home or to some corner<br />where they can be debauched<br />and impregnated with ideas.<br /><br />If librarians were honest,<br />they would say,&nbsp;<em>No one<br />spends time here without being<br />changed. Maybe you should<br />go home. While you still can.</em></p>",
+      "date_published": "2019-01-27T20:18:08.719Z",
+      "canvas_image": "uploads\\1548620288708img3.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e1200cbcefc744098bedc"
+      }
+    },
+    {
+      "_id": "5c4e127dcbcefc744098bedd",
+      "title": " Dinosaur Haiku - John Tiong Chunghoo",
+      "author": "5c38be0dc228c4e938e5d8d5",
+      "content": "<p>on the slippery back&nbsp;<br />of your remains<br />we roam the world<br /><br />such a huge blessing<br />even in death,&nbsp;<br />you help drive the world&nbsp;<br /><br />in death too<br />we roam the world&nbsp;<br />with you on our wheels<br /><br />what a huge blessing!&nbsp;<br />your remains it oils&nbsp;<br />the world's progress<br /><br />one day&nbsp;<br />we would fight over<br />your remains<br />inking ourselves<br />oily thick black</p>",
+      "date_published": "2019-01-27T20:20:13.898Z",
+      "canvas_image": "uploads\\1548620413892img1.jpg",
+      "reads": 0,
+      "request": {
+        "type": "GET",
+        "url": "http://localhost:3000/canvas/5c4e127dcbcefc744098bedd"
+      }
+    }
+  ]
+}

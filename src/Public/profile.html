@@ -1,0 +1,229 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="resources/css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/profile_style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Poet.</title>
+
+</head>
+
+<body onload="show_my_canvases()">
+
+    <div id="loader"></div>
+    <div class="nav"></div>
+
+    <div class="nav_container">
+        <nav>
+            <input type="checkbox" id="nav" class="hidden">
+            <label for="nav" class="nav-btn">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label>
+            <div class="logo">
+                <a href="poems.html">Poet</a>
+            </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a onclick="check()" data-toggle="modal" data-target="#create_canvas_modal" href="#">Create</a></li>
+                    <li><a href="poems.html">Main Page</a></li>
+                    <li><a onclick="sign_out()">Sign Out</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="canvas_preview" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div id='modal_header' class="modal-header">
+                    <button onclick="delete_canvas()" id="delete" class="btn btn-danger">Delete Post</button>
+                    <!--   <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div id="preview_body" class="modal-body">
+
+                    <div class="wall-item">
+                        <img id="img_preview" src="resources/img/img1.jpg" alt="">
+                        <h2 id="h2_preview">Lorem ipsm dolor.</h2>
+                        <p id="p_preview">Lorem ipsum dolor sit amet, ubique integre inimicus ne quo, forensibus
+                            intellegam eos ad, mel ex ludus
+                            consectetuer.</p>
+                    </div>
+
+                    <textarea class="tinymce" id="comment_texteditor"></textarea>
+                    <button onclick="post_comment()" class="btn btn-primary comment_btn">Post Comment</button>
+                    <h2>Comments</h2>
+
+                    <div class="comment_container">
+                        <ul id='comments_area' class='nested_list'>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="create_canvas_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" class="form-control" id="canvas_title" placeholder="Enter Canvas Title">
+                    <div id="btn_delete"></div>
+                    <div class="container" id="image_preview"></div>
+                    <div class="upload-btn-wrapper">
+                        <button class="btn" id="upload-btn">UPLOAD</button>
+                        <input onChange="preview()" type="file" name="canvas_image" id="canvas_image" class="file-input" />
+                    </div>
+                    <textarea class="tinymce" id="texteditor"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button onclick="create_canvas()" type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="modal fade" id="profile_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+
+                    <div class="container_profile">
+                        <div class="profile large">
+                            <div class="cover"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/sterling-davis-513079-unsplash.jpg" />
+                                <div class="layer">
+                                    <div class="loader"></div>
+                                </div><a class="image-wrapper" href="#">
+                                    <form id="coverForm" action="#">
+                                        <input class="hidden-input" id="changeCover" type="file" />
+                                        <label class="edit glyphicon glyphicon-pencil" for="changeCover" title="Change cover"></label>
+                                    </form>
+                                </a>
+                            </div>
+                            <div class="user-info">
+                                <div class="profile-pic"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_33.png" />
+                                    <div class="layer">
+                                        <div class="loader"></div>
+                                    </div><a class="image-wrapper" href="#">
+                                        <form id="profilePictureForm" action="#">
+                                            <input class="hidden-input" id="changePicture" type="file" />
+                                            <label class="edit glyphicon glyphicon-pencil" for="changePicture" type="file"
+                                                title="Change picture"></label>
+                                        </form>
+                                    </a>
+                                </div>
+                                <div id="profile_description" class="username">
+                                    <div class="name"><span class="verified"></span>@John Doe</div>
+                                    <div id="profile_description_text" class="about" onclick="about_edit()">Frontend
+                                        developer and coffee lover</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button onclick="create_canvas()" type="submit" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section class="wall">
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="resources/js/jquery-3.3.1.min.js"></script>
+
+    <script type="text/javascript" src="resources/tinymce/tinymce.min.js"></script>
+    <script type="text/javascript" src="resources/tinymce/init-tinymce.js"></script>
+
+    <script src="resources/js/jaliswall.js"></script>
+    <script src="resources/js/main.js"></script>
+    <script src="resources/js/bootstrap-notify.js"></script>
+    <script src="resources/js/moment.js"></script>
+
+
+    <script type="text/javascript">
+        var loader;
+        function loadNow(opacity) {
+            if (opacity <= 0) {
+                displayContent();
+            } else {
+                loader.style.opacity = opacity;
+                window.setTimeout(function () {
+                    loadNow(opacity - 0.1)
+                }, 100);
+            }
+        }
+
+        function displayContent() {
+            loader.style.display = 'none';
+            var content = document.getElementById('content');
+
+            if (content) {
+                document.getElementById('content').style.display = 'block';
+            }
+
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var today = new Date()
+            var curHr = today.getHours()
+            welcome_message = document.createElement('p');
+            welcome_message.style.textAlign = "center";
+            welcome_message.style.marginTop = "28%";
+
+            if (curHr < 12) {
+                welcome_message.innerHTML = 'Good Morning, ' + localStorage.getItem("name") + '.';
+            } else if (curHr < 18) {
+                welcome_message.innerHTML = 'Good Afternoon, ' + localStorage.getItem("name") + '.';
+            } else {
+                welcome_message.innerHTML = 'Good Evening, ' + localStorage.getItem("name") + '.';
+            }
+
+            loader = document.getElementById('loader');
+            document.getElementById('loader').appendChild(welcome_message);
+
+            loadNow(2);
+        });
+    </script>
+
+
+
+
+
+</body>
+
+</html>
