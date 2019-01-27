@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest && NODE_ENV=development",
     "start": "nodemon --watch ./src --exec cross-env NODE_ENV=development node ./server.js",
-    "pro": "SET NODE_ENV=production nodemon ./server.js"
+    "pro": "export NODE_ENV=production nodemon ./server.js"
   },
   "keywords": [
     "node",
