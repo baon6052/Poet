@@ -18,8 +18,7 @@ mongoose.connect("mongodb://baon6052:" + process.env.MONGO_ATLAS_PW + "@poet-sha
 mongoose.Promise = global.Promise;
 }
 
-/* app.use(cors({origin: 'http://127.0.0.1:5500'})); */
-app.use(cors({origin: 'http://localhost:5500'}));
+app.use(cors({ origin: "https://poet-durham.herokuapp.com"}));
 app.use(morgan("dev"));
 app.use('/uploads', express.static('uploads'));
 app.use(bodyParser.urlencoded({
@@ -29,8 +28,6 @@ app.use(bodyParser.json());
 
 
 app.use((req, res, next) => {
-    /* res.header("Access-Control-Allow-Origin", "http://127.0.0.1:5500"); */
-    res.header("Access-Control-Allow-Origin", "http://localhost:5500");
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept, Authorization"

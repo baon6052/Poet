@@ -38,7 +38,7 @@ exports.people_get_all = (req, res, next) => {
             surname: doc.surname,
             request: {
               type: "GET",
-              url: "http://localhost:3000/people/id/" + doc._id
+              url: "/people/id/" + doc._id
             }
           };
         })
@@ -404,7 +404,7 @@ exports.people_get_person = (req, res, next) => {
             people: doc,
             request: {
               type: "GET",
-              url: "http://localhost:3000/people/id/" + id
+              url: "/people/id/" + id
             }
           });
         } else {
@@ -438,7 +438,7 @@ exports.people_get_person = (req, res, next) => {
             people: person[0],
             request: {
               type: "GET",
-              url: "http://localhost:3000/people/id/" + req.params.personId
+              url: "/people/id/" + req.params.personId
             }
           })
         } else {
@@ -467,7 +467,7 @@ exports.username_get_person = (req, res, next) => {
               people: doc,
               request: {
                 type: "GET",
-                url: "http://localhost:3000/people"
+                url: "/people"
               }
             });
         } else {

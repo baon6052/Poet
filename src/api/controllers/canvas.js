@@ -40,7 +40,7 @@ exports.canvas_get_all = (req, res, next) => {
                             reads: doc.reads,
                             request: {
                                 type: "GET",
-                                url: "http://localhost:3000/canvas/" + doc._id
+                                url: "/canvas/" + doc._id
                             }
                         };
                     })
@@ -132,7 +132,7 @@ exports.canvas_create_canvas = (req, res, next) => {
                         reads: result.reads,
                         request: {
                             type: "GET",
-                            url: "http://localhost:3000/canvas/" + result._id
+                            url: "/canvas/" + result._id
                         }
                     }
                 });
@@ -161,7 +161,7 @@ exports.canvas_get_canvas = (req, res, next) => {
                         canvas: doc,
                         request: {
                             type: "GET",
-                            url: "http://localhost:3000/canvas"
+                            url: "/canvas"
                         }
                     });
                 } else {
@@ -192,7 +192,7 @@ exports.canvas_get_canvas = (req, res, next) => {
                         canvas: post[0],
                         request: {
                             type: "GET",
-                            url: "http://localhost:3000/canvas"
+                            url: "/canvas"
                         }
                     });
                 } else {
@@ -224,7 +224,7 @@ exports.canvas_update_canvas = (req, res, next) => {
                 message: "Canvas updated",
                 request: {
                     type: "GET",
-                    url: "http://localhost:3000/canvas/" + id
+                    url: "/canvas/" + id
                 }
             });
         })
@@ -249,7 +249,7 @@ exports.canvas_delete = (req, res, next) => {
                         message: "Canvas deleted",
                         request: {
                             type: "POST",
-                            url: "http://localhost:3000/canvas",
+                            url: "/canvas",
                             body: {
                                 title: "String",
                                 author: "ObjectId",

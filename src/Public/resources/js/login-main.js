@@ -15,7 +15,7 @@ function sign_up() {
   if (
     document.getElementById("password_signup").value == document.getElementById("re_pass").value
   ) {
-    fetch("http://localhost:3000/people/signup", {
+    fetch("/people/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -106,7 +106,7 @@ function login() {
     let input_email = document.getElementById("inputEmail").value;
     input_email = input_email.toLowerCase();
 
-    fetch("http://localhost:3000/people/login", {
+    fetch("/people/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

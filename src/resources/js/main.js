@@ -136,7 +136,7 @@ function show_canvas(canvas){
 }
 
 function show_my_canvases() {
-    fetch('http://localhost:3000/canvas', {
+    fetch('/canvas', {
         method: 'GET',
     }).then(res => {
         res.json().then(data => {
@@ -170,7 +170,7 @@ function show_my_canvases() {
 
 
 function show_canvases() {
-    fetch('http://localhost:3000/canvas', {
+    fetch('/canvas', {
         method: 'GET',
     }).then(res => {
         res.json().then(data => {
@@ -226,7 +226,7 @@ function create_canvas() {
     
 
 
-    fetch("http://localhost:3000/people/id/"+_id, {
+    fetch("/people/id/"+_id, {
       method: "GET",
       headers: {
         Authorization: "Bearer " + localStorage.getItem("access_token")
@@ -246,7 +246,7 @@ function create_canvas() {
             formData.append("reads", 0);
             formData.append("access_token", "concertina");
 
-            fetch("http://localhost:3000/canvas", {
+            fetch("/canvas", {
               method: "POST",
               headers: {
                 Authorization:
@@ -327,7 +327,7 @@ function post_reply(element){
     
     return */
 
-    fetch('http://localhost:3000/comments/' + response_div.className, {
+    fetch('/comments/' + response_div.className, {
         method: 'GET',
         headers: {
             'Authorization': "Bearer " + localStorage.getItem("access_token"),
@@ -363,7 +363,7 @@ function post_reply(element){
                 }
 
                 return */
-                fetch("http://localhost:3000/comments", {
+                fetch("/comments", {
                     method: "POST",
                     headers: {
                         'Content-Type': 'application/json',
@@ -434,7 +434,7 @@ function post_comment(){
         return;
     }
 
-    fetch("http://localhost:3000/comments", {
+    fetch("/comments", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
@@ -478,7 +478,7 @@ function post_comment(){
 function show_comment(comment){
 
     
-    fetch("http://localhost:3000/people/id/" + comment.author, {
+    fetch("/people/id/" + comment.author, {
         method: "GET",
         headers: {
             Authorization: "Bearer " + localStorage.getItem("access_token")
@@ -544,7 +544,7 @@ function show_comments(post_id){
     comments_toshow = [];
     var ul = document.getElementById('comments_area');
     ul.innerHTML = '';
-    fetch('http://localhost:3000/comments', {
+    fetch('/comments', {
         method: 'GET',
     }).then(res => {
         res.json().then(data => {
@@ -590,7 +590,7 @@ function show_comments(post_id){
 function modal_canvas(id){
     console.log(id);
     var child = document.getElementById(id).childNodes;
-    fetch('http://localhost:3000/canvas/' + id, {
+    fetch('/canvas/' + id, {
         method: 'GET',
     }).then(res => {
         res.json().then(data => {
@@ -722,7 +722,7 @@ function preview1(){
 function delete_canvas(){
     
     var _id = document.getElementById("preview_body").childNodes[1].id;
-    fetch("http://localhost:3000/canvas/" + _id,{
+    fetch("/canvas/" + _id,{
         method: "DELETE",
         headers: {
             Authorization:

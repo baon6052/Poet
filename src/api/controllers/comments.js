@@ -34,7 +34,7 @@ exports.comments_get_all = (req, res, next) => {
               indentation: doc.indentation,
               request: {
                 type: "GET",
-                url: "http://localhost:3000/comments/" + doc._id
+                url: "/comments/" + doc._id
               }
             };
           })
@@ -148,7 +148,7 @@ exports.comments_get_comment = (req, res, next) => {
             comment: doc,
             request: {
               type: "GET",
-              url: "http://localhost:3000/comments"
+              url: "/comments"
             }
           });
         } else {
@@ -174,7 +174,7 @@ exports.comments_get_comment = (req, res, next) => {
             comment: comment[0],
             request: {
               type: "GET",
-              url: "http://localhost:3000/comments"
+              url: "/comments"
             }
           });
         } else {
@@ -200,7 +200,7 @@ exports.comment_delete = (req, res, next) => {
             message: "Comment deleted",
             request: {
               type: "POST",
-              url: "http://localhost:3000/comments",
+              url: "/comments",
               body: {
                 canvasId: "ObjectId",
                 commentParent: "ObjectId",
