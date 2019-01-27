@@ -49,8 +49,11 @@ app.use('/comments', commentsRoutes);
 
 var Public = path.join(__dirname, "Public");
 
+app.get('/', (req, res) => {
+	res.sendFile(path.join(__dirname, "Public/login.html"));
+});
 
-app.use("/", express.static(Public));
+app.use(express.static(Public));
 
 
 app.use((req, res, next) => {
