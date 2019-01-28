@@ -612,16 +612,18 @@ function modal_canvas(id){
                 }
 
 
-                if (data.canvas.author == localStorage.getItem('_id')){
-                   /*  <button onclick="delete_canvas()" id="delete" class="btn btn-danger">Delete Post</button> */
-                    var delete_btn =  document.createElement("button");
-                    delete_btn.onclick = function() {
-                      delete_canvas();
-                    };
-                    delete_btn.id = 'delete';
-                    delete_btn.className = "btn btn-danger";
-                    delete_btn.innerHTML = 'Delete Post';
-                    document.getElementById("modal_header").appendChild(delete_btn);
+                if (data.canvas.author == localStorage.getItem("_id") || localStorage.getItem("_id") == "5c38be0dc228c4e938e5d8d5") {
+                  /*  <button onclick="delete_canvas()" id="delete" class="btn btn-danger">Delete Post</button> */
+                  var delete_btn = document.createElement("button");
+                  delete_btn.onclick = function() {
+                    delete_canvas();
+                  };
+                  delete_btn.id = "delete";
+                  delete_btn.className = "btn btn-danger";
+                  delete_btn.innerHTML = "Delete Post";
+                  document
+                    .getElementById("modal_header")
+                    .appendChild(delete_btn);
                 };
 
                 localStorage.setItem('canvasId_preview', id);
