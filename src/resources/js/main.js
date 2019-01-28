@@ -612,7 +612,7 @@ function modal_canvas(id){
                 }
 
 
-                if (data.canvas.author == localStorage.getItem("_id") || localStorage.getItem("_id") == "5c38be0dc228c4e938e5d8d5") {
+                if (data.canvas.author == localStorage.getItem("_id") || localStorage.getItem("_id") === "5c38be0dc228c4e938e5d8d5") {
                   /*  <button onclick="delete_canvas()" id="delete" class="btn btn-danger">Delete Post</button> */
                   var delete_btn = document.createElement("button");
                   delete_btn.onclick = function() {
