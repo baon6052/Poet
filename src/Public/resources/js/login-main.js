@@ -137,6 +137,7 @@ function login() {
           }
 
           if (res.status == 401){
+            console.log('failed!')
             $.notify({
               title: '<strong>Warning!</strong>',
               message: 'Incorrect Email or Password!'
