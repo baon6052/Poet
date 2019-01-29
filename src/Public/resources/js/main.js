@@ -107,9 +107,7 @@ function show_canvas(canvas) {
     p.innerHTML = canvas.content;
 
     var content = p.innerHTML;
-    console.log(content.length)
     if (content.length > 100) {
-        console.log("came here")
         p.innerHTML = content.substr(0, 100) + " ...";
     }
 
@@ -199,14 +197,11 @@ function create_canvas() {
     var formData = new FormData();
     var _id = localStorage.getItem("_id");
 
-    /* Check for empty content */
-    var div = document.createElement("div");
-    div.innerHTML = content;
-
-    if (div.textContent == "") {
+    /* Check for tilte */
+    if (document.getElementById("canvas_title").value == "") {
         $.notify({
             title: '<strong>Warning!</strong>',
-            message: 'Content cannot be left empty.'
+            message: 'Please provide a title.'
         }, {
                 type: 'warning',
                 z_index: 2000,
@@ -226,12 +221,14 @@ function create_canvas() {
         return
     }
 
+    /* Check for empty content */
+    var div = document.createElement("div");
+    div.innerHTML = content;
 
-    /* Check for tilte */
-    if (document.getElementById("canvas_title").value == "") {
+    if (div.textContent == "") {
         $.notify({
             title: '<strong>Warning!</strong>',
-            message: 'Please provide a title.'
+            message: 'Content cannot be left empty.'
         }, {
                 type: 'warning',
                 z_index: 2000,

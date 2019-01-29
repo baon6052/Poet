@@ -135,6 +135,17 @@ function login() {
 
             window.location.href = "poems.html";
           }
+
+          if (res.status == 401){
+            $.notify({
+              title: '<strong>Warning!</strong>',
+              message: 'Incorrect Email or Password!'
+            }, {
+                type: 'warning',
+                z_index: 2000,
+              });
+          }
+
         });
       })
       .catch(err => {
