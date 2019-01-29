@@ -38,30 +38,7 @@ body{
 body section {
     display: inline-block;
 }
-/* .right{
-    width:50vw;
-    height:100vh;
-    background-image: url('../img/hero.jpg');
-    font-family: 'kokorominchoutairegular'; 
-    background-size: cover;
-    overflow-y: hidden;
-} */
 
-
-
-/* h1{
-    margin: 0 auto;
-    font-size: 7rem;
-    text-align: center;
-    line-height: 10rem;
-    margin-left: 20rem;
-    margin-bottom: 20rem;
-} */
-
-/* .description{
-  text-align: center;
-  line-height: 0rem;
-} */
 
 h3{
     line-height: 0;
@@ -133,7 +110,6 @@ h3{
 
 
 p{
-    /* text-align: center; */
     color: grey;
     font-weight: 300;
     margin-top: 10px;

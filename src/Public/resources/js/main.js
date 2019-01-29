@@ -69,20 +69,7 @@ function initialise() {
 
 }
 
-function about_edit() {
-    var about_textarea = document.createElement("textarea");
-    var profile_description = document.getElementById("profile_description");
-    var description = document.getElementById("profile_description_text").textContent;
 
-    about_textarea.className = "tinymce";
-    about_textarea.id = "about_textarea";
-
-    document.getElementById("profile_description_text").remove();
-    profile_description.appendChild(about_textarea);
-    initialise();
-
-    tinymce.get("about_textarea").execCommand('mceInsertContent', false, description);
-}
 
 function set_onclick() {
     var divs = document.getElementsByClassName("wall-item");
