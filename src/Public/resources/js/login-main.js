@@ -1,5 +1,5 @@
 function sign_up() {
-  if (document.getElementById("password_signup").value.length <= 8) {
+  if (document.getElementById("password_signup").value.length <= 7) {
       $.notify({
           title: '<strong>Warning!</strong>',
           message: 'Password must have a minimum length of 8.'
@@ -139,7 +139,7 @@ function login() {
           if (res.status == 401){
             console.log('failed!')
             $.notify({
-              title: '<strong>Warning!</strong>',
+              title: '<strong>Oops!</strong>',
               message: 'Incorrect Email or Password!'
             }, {
                 type: 'warning',
