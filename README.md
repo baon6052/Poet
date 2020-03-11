@@ -19,6 +19,9 @@ photography.
 
 ### Quick start
 
+#### change into the repo directory
+`cd src`
+
 #### install
 `npm install`
 
