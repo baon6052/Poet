@@ -3,6 +3,9 @@ A platform for sharing poetry paired with visual
 photography.
 
 ![Main Page](main-page.PNG)
+![View Poem](view-poem.PNG)
+![Sign In](sign-in.PNG)
+![Sign Up](sign-up.PNG)
 
 ###  Specifications:
 * Create New User Account
@@ -16,15 +19,8 @@ photography.
 
 ### Quick start
 
-#### change into the repo directory
-`cd tech-test`
-
 #### install
 `npm install`
 
-#### serve
-`npm run server`                   
+#### serve               
 `npm run start`
-
-#### Running unit tests
-`npm run test`
