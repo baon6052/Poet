@@ -2,6 +2,8 @@
 A platform for sharing poetry paired with visual
 photography.
 
+![Main Page](main-page.PNG)
+
 ###  Specifications:
 * Create New User Account
 * Upload photos
