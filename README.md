@@ -3,8 +3,11 @@ A platform for sharing poetry paired with visual
 photography.
 
 ![Main Page](main-page.PNG)
+
 ![View Poem](view-poem.PNG)
+
 ![Sign In](sign-in.PNG)
+
 ![Sign Up](sign-up.PNG)
 
 ###  Specifications:
@@ -26,4 +29,4 @@ photography.
 `npm install`
 
 #### serve               
-`npm run start`
+`npm start`
