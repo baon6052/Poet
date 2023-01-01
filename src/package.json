@@ -28,7 +28,7 @@
     "express": "^4.16.4",
     "formidable": "^1.2.1",
     "fs": "0.0.1-security",
-    "jest": "^23.6.0",
+    "jest": "^29.3.1",
     "jsonwebtoken": "^8.4.0",
     "moment": "^2.24.0",
     "mongoose": "^5.4.0",
@@ -39,7 +39,7 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "supertest": "^3.3.0",
-    "webpack": "^4.28.3",
+    "webpack": "^5.75.0",
     "wysihtml": "^0.6.0-beta1"
   },
   "devDependencies": {}
